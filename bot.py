@@ -25,10 +25,10 @@ async def hello(ctx):
 async def heh(ctx, count_heh = 5):
     await ctx.send("he" * count_heh)
 
-@bot.command(description='For when you wanna settle the score some other way')
+@bot.command()
 async def choose(ctx, *choices: str): 
     await ctx.send(random.choice(choices))
 
 
 
-bot.run(":)")     
+bot.run("jijajajaajjajj")     
